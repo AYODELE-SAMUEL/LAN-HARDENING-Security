@@ -16,7 +16,8 @@ addresses allowed on a switch port.
 Port security helps secure LAN environments by controlling device access.
 
 
-
+## Network Configuration
+## cisco commands
      
 Switch> enable
 Switch# configure terminal
