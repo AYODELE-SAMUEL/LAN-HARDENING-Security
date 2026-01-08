@@ -64,7 +64,18 @@ Network Diagram: <br/>
 <br />
 </p>
 
-<h2>Conclusion</h2>
+<h2>Conclusion</h2> ## Conclusion
+
+The successful implementation of Port Security on the Cisco 2960 switch marks a critical step in hardening the Local Area Network (LAN). By moving away from a default "plug-and-play" configuration, we have established a controlled environment where the physical access layer is actively defended against unauthorized intrusions.
+
+### Summary of Achievements:
+* **MAC Address Control:** By utilizing `switchport port-security mac-address sticky`, the network now dynamically learns and persists authorized hardware addresses, preventing rogue device connectivity.
+* **Attack Mitigation:** The configuration effectively mitigates Layer 2 threats such as CAM Table Overflows and MAC Spoofing by enforcing strict limits on the number of devices per interface.
+* **Automated Incident Response:** Through the use of the `shutdown` violation mode, the infrastructure is now capable of self-healing and immediate threat isolation without manual administrator intervention.
+* **Network Visibility:** The implementation provides improved audit trails, allowing IT teams to identify exactly which port was breached and which unauthorized device triggered the security event.
+
+### Final Thoughts:
+This project demonstrates that LAN hardening is not a one-time setup but a continuous strategy of access control. While this lab focuses on port-level security, it serves as the foundation for higher-level implementations such as 802.1X authentication and Dynamic ARP Inspection (DAI), ensuring a robust "Defense in Depth" posture for the enterprise.
 
 <br>
 <br />
