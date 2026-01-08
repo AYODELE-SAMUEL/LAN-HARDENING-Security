@@ -1,42 +1,22 @@
 LAN-HARDENING: PORT-SECURITY
 
-<h2>Description</h2>
 
-<br>SecureNetworkLab is a virtualized network infrastructure project designed to help organizations expand their IT capabilities within limited space and budget constraints. This lab demonstrates how to deploy scalable, secure systems using virtualization and open-source tools.
 
-Key features of the implementation include:
+## Key features of the implementation include:
 
-Virtual Machine Deployments to minimize hardware costs and physical space usage
+-<b>Cisco switch 2960<b/>
 
-Scalable Infrastructure that supports seamless upgrades and expansion
+-<b>Personal Computers(PC's)<b/>
 
-Secure Network Segmentation to isolate trusted users from untrusted actors
+-<b>Straight Through Cables(STP)<b/>
 
-The completed virtual environment includes:
 
-🌐 Web Server
 
-🔥 Router-Firewall (pfSense)
-
-🖥️ CEO Workstation and Trusted User PC
-
-📡 DNS Server
-
-🛡️ Demilitarized Zone (DMZ)
-
-This repository serves as a practical showcase of secure network design, virtualization strategy, and access control implementation—ideal for IT professionals, students, and cybersecurity enthusiasts.
+This repository serves as a practical showcase of PORT SECURITY, virtualization strategy, and access control implementation—ideal for IT professionals, students, and cybersecurity enthusiasts.
 <br />
 
 
-<h2>Environments Used </h2>
 
-- <b>Windows 11 (Host OS)</b> (21H2)
-- <b>Virtual Box VM</b>
-- <b>Router-Firewall (pfsense)</b>
-- <b>CEO Workstation (pfsense)</b>
-- <b>Web Server (pfsense)</b>
-- <b>DNS Server (pfsense)</b>
-- <b>Demilitarized Zone (DMZ) (pfsense)</b>
 
 
 <h2>Project walk-through:</h2>
@@ -46,15 +26,15 @@ Network Diagram: <br/>
 <img src="https://imgur.com/0uNYwqr.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-IP Structure for the Network:  <br/>
+## config mode:  <br/>
 <img src="https://imgur.com/Fg5D0JQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Deploying the VMs:  <br/>
+## interface mode:  <br/>
 <img src="https://imgur.com/6P0G9J2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Setting up the CEO PC IP address:  <br/>
+##:  <br/>
 <img src="https://imgur.com/u4m6gYQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
@@ -67,19 +47,19 @@ Performing Scanning Using NMAP Against DNS-Server:  <br/>
 <br />
 <br />
 Running an Active Scan Using NMAP RESULTS FOR WEB SERVER:  <br/>
-<img src="https://imgur.com/NdEC0Xk.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/j02Exs1.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Running a Connectivity Test from a Trusted Network to Untrusted Network:  <br/>
-<img src="https://imgur.com/SBWfKHC.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/jgutBjQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Running a Connectivity Test from a Untrusted Network to Trusted Network:  <br/>
-<img src="https://imgur.com/yGawPpd.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/l2htqlh.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 Capturing Packets Using WireShark:  <br/>
-<img src="https://imgur.com/WBTZCnj.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/T1vsxHL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
 </p>
