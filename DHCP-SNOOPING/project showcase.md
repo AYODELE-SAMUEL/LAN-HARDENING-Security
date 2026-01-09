@@ -10,7 +10,7 @@
 -<b>Dhcp Server
 
 
-This repository serves as a practical showcase of secure network design, virtualization strategy, and access control implementation—ideal for IT professionals, students, and cybersecurity enthusiasts.
+This repository serves as a practical showcase of Dhcp snooping, virtualization strategy, and access control implementation—ideal for IT professionals, students, and cybersecurity enthusiasts.
 <br />
 
 
