@@ -1,20 +1,13 @@
+LAN-HARDENING-SECURITY: DHCP-SNOOPING
+ 
 
-<h1>Secure Network Implementation with DMZ, Firewall, and Trusted Zones: A Practical Implementation</h1>
 
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
+## Key features of the implementation include:
+-<b>Cisco Packet Tracer<b/>
 
-<h2>Description</h2>
+-<b>Personsl Computers(PC'S)
 
-<br>SecureNetworkLab is a virtualized network infrastructure project designed to help organizations expand their IT capabilities within limited space and budget constraints. This lab demonstrates how to deploy scalable, secure systems using virtualization and open-source tools.
-
-Key features of the implementation include:
-
-Virtual Machine Deployments to minimize hardware costs and physical space usage
-
-Scalable Infrastructure that supports seamless upgrades and expansion
-
-Secure Network Segmentation to isolate trusted users from untrusted actors
-
+-<b>Dhcp Server
 The completed virtual environment includes:
 
 🌐 Web Server
