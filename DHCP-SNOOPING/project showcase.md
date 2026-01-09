@@ -2,7 +2,7 @@
  
 
 
-## Key features of the implementation include:
+## DEVICES USED:
 -<b>Cisco Packet Tracer<b/>
 
 -<b>Personsl Computers(PC'S)
